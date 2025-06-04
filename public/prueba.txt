@@ -1,0 +1,41 @@
+var nombre String = "Juan"
+val pi Doub = 3.1416
+var activo bol = true
+var letra char
+= 'a'
+val numeros Arr[Int] = Arr(1, 2, 3, 4, 5)
+obj class Persona(nombre  String, edad  Int, activo  Boolean)
+// 3. Acceso y operaciones
+numeros 0 = numeros 1 + 10
+val moduloResultado Int = 10 % 3
+val mezcla Doub
+= (numeros 2 * 2).toDoub / pi - 5
+// 4. Condicional simple
+if (mezcla >= 0 && activo) {
+println("¡Mezcla es no negativa!")
+} else {
+println("¿Mezcla negativa o inactivo?")
+}
+// 5. Otro condicional con OR
+if (mezcla == 0 || activo) {
+println("¡Mezcla es no negativa!")
+} else {
+println("¿Mezcla negativa o inactivo?")
+}
+// 6. Bucle tradicional
+for (i <- 0 until numeros.length) {
+println("índice $i valor ${numeros i }")
+}
+// 7. Función de ejemplo
+defu calcular(a Int, b Int) Int = {
+a * b + (a - b) % 2
+}
+// 8. Llamada a función
+val resultado Int = calcular 5, 3
+println("Resultado de calcular: $resultado")
+val caso String = "carlos"
+caso match {
+case "carlos" -> println("¡Tú eres carlos!")
+case _
+-> println("La variable está vacía o no es Carlos")
+}
